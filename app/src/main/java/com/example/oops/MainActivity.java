@@ -18,6 +18,10 @@ public class MainActivity extends AppCompatActivity {
         MyBank activity = new com.example.oops.Status();
         activity.write();
 
+        Finance activity1 = new Admin();
+        activity1.readData();
+
+
 
 
 
