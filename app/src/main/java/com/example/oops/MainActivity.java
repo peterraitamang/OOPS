@@ -15,6 +15,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        MyBank activity = new com.example.oops.Status();
+        activity.write();
+
+
+
 
 //        areaOfRectangle();
 //
